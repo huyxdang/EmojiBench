@@ -1,0 +1,16 @@
+[project]
+name = "emoji-bench"
+version = "0.1.0"
+description = "Fixed continuation benchmark for LLM self-correction in emoji formal systems"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+    "openai>=1.0",
+    "anthropic>=0.49.0",
+    "certifi",
+    "matplotlib",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

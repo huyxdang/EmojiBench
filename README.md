@@ -124,16 +124,6 @@ scripts/plot_final_answer.py        plot local score summaries
 run.sh                              batch runner
 ```
 
-## Scope
-
-This repo intentionally does not provide:
-
-- dataset generation reproducibility,
-- checked-in model predictions or leaderboard artifacts,
-- LLM-as-judge scoring.
-
-The benchmark is reproducible from the fixed dataset and deterministic scoring code. Hosted model outputs may still vary if provider aliases or serving behavior change.
-
 ## License
 
 MIT. See `LICENSE`.

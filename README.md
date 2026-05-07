@@ -4,6 +4,22 @@ Emoji-Bench is a fixed 100-example benchmark for testing whether language models
 
 The public repo includes the benchmark dataset and the scripts needed to run models, score predictions deterministically, and generate local final-answer plots. It does not include our model outputs, leaderboard result artifacts, LLM-as-judge artifacts, or dataset-generation code.
 
+## Table of Contents
+
+- [Leaderboard](#leaderboard)
+- [Dataset](#dataset)
+- [Setup](#setup)
+- [Run](#run)
+- [Single Cell](#single-cell)
+- [Score](#score)
+- [Plot](#plot)
+- [Repo Map](#repo-map)
+- [License](#license)
+
+## Leaderboard
+
+![Leaderboard](public/leaderboard.JPG)
+
 ## Dataset
 
 The fixed benchmark input lives at:
